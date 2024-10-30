@@ -19,4 +19,5 @@ public class Ejemplo04 {
         System.out.print(nacimiento + " ");
         System.out.print(nombreEstudiante + " ");
     }
+    // el println me permite 
 }
