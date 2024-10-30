@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo2 {
+public class Ejemplo4 {
 
     public static void main(String[] args) {
         // Ingreso de valores por teclado
@@ -24,6 +24,7 @@ public class Ejemplo2 {
         String nombreAsignatura2;
         double notaAsignatura1;            
         double notaAsignatura2;
+        double promedio;
         
         System.out.println("Ingrese nombre de asignatura 1");
         nombreAsignatura1 = entrada.nextLine();
@@ -35,12 +36,16 @@ public class Ejemplo2 {
         System.out.println("Ingrese nota de asignatura 2");
         notaAsignatura2 = entrada.nextDouble();
         
+        promedio = (notaAsignatura1 + notaAsignatura2) / 2;
+        
+        
         System.out.printf("Asignatura 1: %s\nNota 1:%.2f\nAsignatura 2:%s\n"
-                + "Nota 2: %.2f\n",
+                + "Nota 2: %.2f\nPromedio de asignaturas:%.2f/10/n",
                 nombreAsignatura1,
                 notaAsignatura1,
                 nombreAsignatura2,
-                notaAsignatura2);
+                notaAsignatura2,
+                promedio);
    
     }
     
